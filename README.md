@@ -31,7 +31,7 @@ this project was made using tensorflow, a library to build Machine learning proj
 
          git clone https://github.com/prajnasb/observations.git
          
- after building the neural network it is saved as a tensorflow model and then converted to a tflite model. The mask classification works in two steps the program first detects or looks for the face and extracts the picture from it and runs an image classification on the face using the model created from before. It then classifies the facce by drawing a frame around the face with two colours
+ after building the neural network it is saved as a tensorflow model and then converted to a tflite model. The mask classification works in two steps the program first detects or looks for the face and extracts the picture from it and runs an image classification on the face using the model created from before. It then classifies the facce by drawing a frame around the face with two colours along with the percentage of match
  ###### Green for with mask
  ###### Red for without mask
-and also displays the percentage of match
+
