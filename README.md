@@ -1,14 +1,16 @@
 # Asfαlis(ασφαλής)
-In light of the recent pandemic ' covid 19', this app was built for detecting people not wearing masks and can help you maintain distance fro these people.
+In light of the recent pandemic ' covid 19', this app was built for detecting people not wearing masks and can help you maintain distance from these people.
 This program consists of two parts 
-Mask Detector Program built by Srijan using tensorflow lite,  Keras and android studio
+Mask Detector Program built by Srijan using tensorflow lite, Keras and android studio
 ### PC version
 ####  Initial Setup
 This project requires python to be installed and python added to PATH variable in case of windows.
-please run the following command in the MaskDetectorV2 directory using cmd 
+please run the following command in the MaskDetectorV2 directory using cmd or terminal
 
         pip install -r requirements.txt
-this directory consists of the files used to 
+this directory consists of the files used to train the dataset initially and also the prototype for the pc version
+
+
 go to the directory in which the project is present using cmd or terminal (as the case may be) and run the following command:
          
          python capture.py
@@ -20,7 +22,7 @@ And if you want to retrain the model, download images into a folder "dataset" in
 ### ANDROID version
 For this Download the project as a zip and run the apk file present in the Asfalis-APK on your android device. 
 ###### Note: Minimum android version required is ANDROID 8
-On Opening the app you can either go into the detection screen by clicking on the power button or click on the help button for a quick walkthrough.
+On Opening the app you can either go into the detection screen by clicking on the start button or click on the help button for a quick walkthrough.
 
 ###### For viewing the source files you can open the Asfalis folder with ANDROID STUDIO and let the Gradle build itself
 
