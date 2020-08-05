@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< Updated upstream
     <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">Asfαlis</string>
+=======
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">Asf?lis</string>
+>>>>>>> Stashed changes
     <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
     <string name="title_activity_help">Help</string>
     <!-- Strings used for fragments for navigation -->
